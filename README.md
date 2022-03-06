@@ -22,7 +22,7 @@ Dapat menggunakan beberapa paket yang siap pakai untuk mempersingkat proses inst
 Disini proses instalasi pada sistem operasi Windows.
 
 Pertama silahkan download XAMPP, silahkan download <a href="https://www.apachefriends.org/xampp-files/7.0.32/xampp-win32-7.0.32-0-VC14-installer.exe" target="_blank" title="silahkan buka di tab baru, dengan klik kanan atau klik CTRL + clik">disini</a>.
-Silahkan install XAMPP yang telah berhasil Anda download. Pastikan di komputer belum terinstall PHP & MySQL untuk menghindari konflik port. Apabila sebelumnya telah ada, silahkan cek versi PHP harus 7.2.
+Silahkan install XAMPP yang telah berhasil didownload. Pastikan di komputer belum terinstall PHP & MySQL untuk menghindari konflik port. Apabila sebelumnya telah ada, silahkan cek versi PHP harus 7.2.
 
 Setelah berhasil menginstal PHP dan MySQL (dalam paket XAMPP), lanjutkan install composer dan gitbash.
 
