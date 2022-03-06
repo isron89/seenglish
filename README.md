@@ -58,18 +58,14 @@ Kemudian konfigurasi environtment aplikasi seperti database, email dsb pada file
 Buka browser dan ketikan url http://localhost/phpmyadmin. Lalu buat database baru dengan nama <b>seenglish</b>. Setelah itu ketikan script berikut pada command promt:
 
 ```
-
 php artisan migrate
 php artisan db:seed
-
 ```
 
 Setelah proses diatas berhasil dilalui tanpa hambatan, silahkan akses di browser url http://localhost/seenglish/public untuk mengakses aplikasi ujian atau juga http://localhost:8000 / http://127.0.0.1:8000 dengan menjalankan server via cmd.
 
 ```
-
 php artisan serve
-
 ```
 
 Untuk login sebagai admin silahkan gunakan email: <b>admin@seenglish.com</b>, password: <b>123456</b>
