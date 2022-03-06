@@ -24,6 +24,8 @@
   <link href="{{ asset('/vendor/venobox/venobox.css') }}" rel="stylesheet">
   <link href="{{ asset('/vendor/owl.carousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
 
+  <!-- <link rel="stylesheet" href="//cdn.datatables.net/1.10.7/css/jquery.dataTables.min.css"> -->
+
   <!-- Main CSS File -->
   <link href="{{ asset('/css/style.css') }}" rel="stylesheet" type="text/css">
 
@@ -42,6 +44,12 @@
   <script src="{{ asset('/vendor/isotope-layout/isotope.pkgd.min.js') }}" type="text/javascript"></script>
   <script src="{{ asset('/vendor/venobox/venobox.min.js') }}" type="text/javascript"></script>
   <script src="{{ asset('/vendor/owl.carousel/owl.carousel.min.js') }}" type="text/javascript"></script>
+
+  <!-- jQuery -->
+  <!-- <script src="//code.jquery.com/jquery.js"></script> -->
+
+  <!-- DataTables -->
+  <!-- <script src="//cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script> -->
 
   <!-- Main JS File -->
   <script src="/js/main.js"></script>

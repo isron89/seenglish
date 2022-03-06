@@ -9,6 +9,7 @@ Route::post('/register/proses', '\App\Http\Controllers\Auth\RegisterController@r
 
 Route::get('/', 'HalamanController@index')->name('halaman.index');
 Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/data-sesi', 'HalamanController@getKelas')->name('halaman.getKelas');
 
 // reute group for crud
 Route::group(['prefix' => 'crud'], function () {
