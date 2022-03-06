@@ -37,7 +37,7 @@ Buka command prompt (gitbash) lalu arahkan ke folder htdocs (ada didalam folder 
 Setelah itu ketikan:
 
 ```
-git clone https://github.com/eko10/seenglish.git
+git clone https://github.com/isron89/seenglish.git
 ```
 
 Tunggu sampai file selesai di clone ke folder htdocs server, lalu masuk ke folder <b>seenglish</b> dengan mengetikan (`cd seenglish`) pada command prompt (gitbash), lalu ketikan :
