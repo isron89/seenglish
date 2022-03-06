@@ -55,8 +55,6 @@ composer update --verbose --profile --prefer-dist
 
 Kemudian konfigurasi environtment aplikasi seperti database, email dsb pada file .env(ubah .env.example menjadi .env)
 
-```
-
 Buka browser dan ketikan url http://localhost/phpmyadmin. Lalu buat database baru dengan nama <b>seenglish</b>. Setelah itu ketikan script berikut pada command promt:
 
 ```
@@ -75,4 +73,3 @@ php artisan serve
 ```
 
 Untuk login sebagai admin silahkan gunakan email: <b>admin@seenglish.com</b>, password: <b>123456</b>
-```
