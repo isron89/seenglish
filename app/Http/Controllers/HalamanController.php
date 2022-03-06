@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use Auth;
 use App\User;
 use App\Models\Kelas;
 use Carbon\Carbon;
@@ -22,9 +23,8 @@ class HalamanController extends Controller
   public function index()
   {
     return view('halaman', [
-      'sesi' => $kelas = Kelas::latest()->get(),
-      'iter' => 1,
-      'title' => 'SEEnglish'
+      'sesi' => $kelas = Kelas::latest()->where('tanggal', '>=', Carbon::today()->toDateString())->get(),
+      'iter' => 1
     ]);
   }
 

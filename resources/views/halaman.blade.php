@@ -7,7 +7,7 @@
   <div class="container d-flex align-items-center">
 
     {{-- Tulisan --}}
-    <h1 class="logo mr-auto"><a href="/"><strong>{{ $title }}</strong></a></h1>
+    <h1 class="logo mr-auto"><a href="/"><strong>{{ config('app.name') }}</strong></a></h1>
     <!-- Logo SEEnglish -->
     <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -18,12 +18,26 @@
         <li><a href="#services">Tata Cara</a></li>
         <li><a href="#faq">FAQ</a></li>
         <li><a href="#contact">Kontak Kami</a></li>
+        @if (Auth::guest())
         <li class="drop-down"><a href="#">Login</a>
           <ul>
             <li><a href="/login">Login</a></li>
             <li><a href="/register">Register</a></li>
           </ul>
         </li>
+        @else
+        <li class="drop-down"><a href="#">{{ Auth::user()->name }}</a>
+          <ul>
+            <li><a href="{{ route('home') }}">Dashboard</a></li>
+            <li><a href="{{ route('logout') }}" onclick="event.preventDefault();
+             document.getElementById('logout-form').submit();">Logout</a>
+              <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                {{ csrf_field() }}
+              </form>
+            </li>
+          </ul>
+        </li>
+        @endif
       </ul>
     </nav><!-- .nav-menu -->
 
