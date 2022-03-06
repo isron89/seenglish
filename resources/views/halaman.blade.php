@@ -184,11 +184,11 @@
       <ul class="faq-list">
 
         <li>
-          <a data-toggle="collapse" class="" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="icofont-simple-up"></i></a>
+          <a data-toggle="collapse" class="" href="#faq1">Apakah bisa mendaftar tes tanpa mendaftar akun? <i class="icofont-simple-up"></i></a>
           <div id="faq1" class="collapse show" data-parent=".faq-list">
             <p>
-              Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida.
-              Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+              Tidak bisa.
+              Anda harus mendaftar akun terlebih dahulu untuk proses administrasi tes
             </p>
           </div>
         </li>
