@@ -16,6 +16,7 @@
         <li class="active"><a href="#">Home</a></li>
         <li><a href="#about">Informasi</a></li>
         <li><a href="#services">Tata Cara</a></li>
+        <li><a href="#term">Ketentuan</a></li>
         <li><a href="#faq">FAQ</a></li>
         <li><a href="#contact">Kontak Kami</a></li>
         @if (Auth::guest())
@@ -69,7 +70,6 @@
         <div class="col-lg-12 ">
 
           <table class="table table-bordered yajra-datatable">
-
             <thead>
               <tr>
                 <th>No</th>
@@ -79,6 +79,7 @@
                 <th>Jam Selesai</th>
               </tr>
             </thead>
+            @if($sesi->count() > 0)
             @foreach ($sesi as $ses)
             <tbody>
               <tr>
@@ -90,8 +91,14 @@
               </tr>
             </tbody>
             @endforeach
+            @else
+            <tbody>
+              <tr>
+                <td colspan="5" style="text-align: center;"><br>Belum ada jadwal tes</td>
+              </tr>
+            </tbody>
+            @endif
           </table>
-
         </div>
       </div>
 
@@ -192,6 +199,85 @@
       </div>
   </section><!-- Akhir section tata cara -->
 
+  <!-- ======= Section term ======= -->
+  <section id="term" class="term">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Term and Conditions</h2>
+        <h3>Syarat & Ketentuan Tes TOEFL <span>SEEnglish</span></h3>
+        <!-- <p>Berikut merupakan syarat tes toefl pada platform SEEnglish.</p> -->
+      </div>
+
+      <div class="row content">
+        <div class="col-lg-12">
+          <h3 style="font-size: 24px; font-weight: bold; text-align: center; margin-bottom: 15px;">Persyaratan Wajib Peserta, Perangkat, Dan Ruang Ujian Mandiri Untuk TOEFL Daring (Online)</h3>
+          <h4 class="title" style="font-weight: bold; font-size: 20px;">Peserta</h4>
+          <p style="font-size: 15px;">
+            1. Mampu melakukan proses pendaftaran dan pembayaran sesuai dengan syarat dan tahapan yang ditentukan. <br>
+            2. Mampu mengoperasikan dan menyediakan perangkat yang diperlukan untuk tes TOEFL Daring. Apabila mempunyai hambatan baik dalam hal jasmani atau teknologi, mohon menghubungi Kontak Helpdesk TOEFL untuk mendapatkan arahan lebih lanjut.</p>
+          <h4 class="title" style="font-weight: bold; font-size: 20px;">Perangkat</h4>
+          <ul>
+            <li style="font-weight: bold; font-size: 15px;">Laptop/PC, dengan Spesifikasi Minimum (bisa lebih tinggi)</li>
+            <p style="font-size: 15px;">
+              1. Terkoneksi Internet dengan stabil dengan kuota minimal 4Gb <br>
+              2. Kamera / Webcam <br>
+              3. RAM 2Gb, Prosesor Dual-Core, Storage 10Gb <br>
+              4. Sistem Operasi Windows 7/8/10 atau Sistem Operasi Mac OS atau Linux <br>
+              5. Layar mendukung resolusi 1024x768 pixel 32-bit berukuran minimal 12 inci <br>
+              6. Browser Firefox/Chrome versi terbaru <br>
+              7. Tidak terhubung dengan perangkat lain, kecuali mouse dan charger/adaptor battery <br>
+              8. Terpasang aplikasi Zoom <br>
+              9. Harus menggunakan headset <br>
+            </p>
+            <li style="font-weight: bold; font-size: 15px;">Smartphone, dengan ketentuan:</li>
+            <p style="font-size: 15px;">
+              1. Terkoneksi Internet dengan stabil dengan kuota minimal 4Gb <br>
+              2. Mempunyai kamera depan dan belakang <br>
+              3. Terpasang aplikasi Zoom dengan update terbaru <br>
+            </p>
+            <li style="font-weight: bold; font-size: 15px;">Mampu mengoperasikan dan menyediakan perangkat yang diperlukan untuk tes TOEFL Daring. Apabila mempunyai hambatan baik dalam hal jasmani atau teknologi, mohon menghubungi Kontak Helpdesk TOEFL untuk mendapatkan arahan lebih lanjut.</li>
+          </ul>
+          <h4 class="title" style="font-weight: bold; font-size: 20px;">Ruangan Ujian Mandiri</h4>
+          <p style="font-size: 15px;">
+            1. Laptop/PC harus berada di atas meja dengan kondisi rapi <br>
+            2. Terdapat kursi sebagai tempat duduk yang nyaman <br>
+            3. Berada pada ruang tertutup dengan penerangan yang cukup <br>
+            4. Disarankan untuk menggunakan ruangan yang jauh dari keramaian/suara bising untuk <br>
+            5. mendapatkan kualitas audio yang lebih baik <br>
+          </p>
+          <h3 style="font-size: 24px; font-weight: bold; text-align: center; margin-bottom: 15px; margin-top: 25px;">Ketentuan Pelaksanaan Tes TOEFL Daring (Online)</h3>
+          <h4 class="title" style="font-weight: bold; font-size: 20px;">Persiapan Peserta Sebelum Hari Pelaksanaan TOEFL Daring (Online)</h4>
+          <p style="font-size: 15px;">
+            1. Bergabung dengan grup WhatsApp sesuai dengan jadwal yang ditentukan. <br>
+            2. Mempersiapkan perangkat dan ruangan sesuai dengan syarat yang telah ditentukan oleh panitia. <br>
+            3. Mendapatkan Dokumen Petunjuk Pelaksanaan TOEFL Daring (Online) dari panitia. <br>
+            4. Kewajiban mengikuti sesi technical meeting (TM) untuk mendapatkan semua info penting dan simulasi pelaksanaan TOEFL Daring (Online). <br>
+          </p>
+          <h4 class="title" style="font-weight: bold; font-size: 20px;">Pelaksanaan TOEFL Daring (Online)</h4>
+          <p style="font-size: 15px;">
+            1. Untuk keperluan monetoring, peserta diwajibkan mengenakan baju formal berwarna terang/cerah. Apabila peserta mengenakan kerudung, juga diharuskan dengan warna yang terang/cerah. <br>
+            2. Peserta harus sudah siap di ruangan ujian mandiri dan bergabung secara online di grup WhatsApp dan Zoom Meeting, maksimal 10 menit sebelum jam pelaksanaan tes, untuk verifikasi dan mendapatkan arahan terakhir sebelum tes. Peserta tidak diperbolehkan mematikan video dan audio di Zoom Meeting dengan sengaja selama pelaksanaan tes untuk keperluan monetoring. Jika video dan audio di Zoom Meeting dimatikan oleh peserta, tes dinyatakan gagal (peserta didiskualifikasi). <br>
+            3. Peserta menjalankan tes TOEFL Daring (Online) tepat waktu sesuai jadwal yang ditentukan. Apabila peserta terlambat mengikuti tes, panitia akan memberikan bantuan teknis apabila dibutuhkan TANPA adanya tambahan waktu. <br>
+            4. Peserta menjalankan tes TOEFL Daring (Online) sesuai dengan arahan panitia dan peraturan yang tertulis di laman tes. Kesalahan yang terjadi karena kelalaian memahami peraturan menjadi tanggung jawab peserta. <br>
+            5. Peserta harus mengerjakan seluruh tahapan tes TOEFL Daring (Online) secara mandiri tanpa bantuan orang lain, kamus, atau alat bantu lainnya. Panitia berhak menganulir hasil tes apabila peserta terindikasi melakukan kecurangan yang bisa diketahui melalui monetoring di Zoom Meeting. <br>
+            6. Jika koneksi internet peserta terputus saat tes berlangsung, peserta harus dengan cepat berupaya menyelesaikan masalah tersebut secara mandiri dengan koordinasi dengan panitia. <br>
+            7. Peserta tidak diperkenankan untuk menduplikasi atau mendokumentasikan soal dan dokumen pendukung TOEFL Daring (Online) dengan alasan dan cara apapun. Pelanggaran terhadap ketentuan ini dapat berakibat pada diskualifikasi hasil tes peserta dan menimbulkan konsekuensi hukum bagi peserta terkait dengan pelanggaran Hak Merek/Hak Cipta TOEFL. <br>
+            8. Panitia berhak mengistruksikan peserta untuk menghapus seluruh dokumen pendukung tes TOEFL Daring (Online) setelah pelaksanaan tes. <br>
+          </p>
+          <h4 class="title" style="font-weight: bold; font-size: 20px;">Proses Mendapatkan Hasil Tes TOEFL Daring (Online)</h4>
+          <p style="font-size: 15px;">
+            1. Hasil tes dan sertifikat digital TOEFL dapat diunduh secara mandiri maksimal 3 (tiga) jam setelah pelaksanaan tes berakhir (Rapid Reporting System). Lama waktu pengunduhan sertifikat mandiri ini dibatasi sesuai dengan keputusan panitia yang akan disampaikan di grup WhatsApp. <br>
+            2. Peserta dapat mengajukan sertifikat fisik TOEFL dan salinan yang telah dilegalisasi dengan mendaftarkan diri lewat grup WhatsApp. Sertifikat fisik dan salinan yang telah dilegalisasi ini bisa didapatkan secara gratis dan diambil di Kantor Lembaga Bahasa UMM dengan alamat: Basement Gedung Kuliah Bersama (GKB) IV UMM, Kampus III, Jl. Raya Tlogomas No. 246 Malang, Jawa Timur 65144. <br>
+            3. Layanan legalisasi sertifikat fisik/digital TOEFL juga dapat dilakukan di Kantor Lembaga Bahasa UMM, dengan jumlah maksimal 2 lembar. Layanan ini tidak dikenakan biaya dengan syarat peserta menunjukkan slip pembayaran asli pendaftaran tes TOEFL. Legalisasi yang dilakukan setelah tiga (3) bulan setelah tanggal terbit sertifikat akan dikenai biaya sebesar Rp 5.000,00 per lembarnya. <br>
+            4. Pengiriman sertifikat fisik TOEFL dan salinan yang sudah dilegalisasi bisa dikirim ke alamat peserta dengan biaya kirim yang ditanggung oleh peserta. <br>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir section term -->
+
   <!-- ======= Section F.A.Q ======= -->
   <section id="faq" class="faq">
     <div class="container">
@@ -281,7 +367,7 @@
       </div>
 
       <div class="row mt-12">
-        <div class="col-lg-4" style="padding-top: 40px;">
+        <div class="col-lg-4" style="padding-top: 40px; text-align: center;">
           <div class="info">
             <div class="address">
               <i class="icofont-google-map"></i>
@@ -293,7 +379,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-4" style="text-align: center;">
           <div class="info">
             <div class="email">
               <i class="icofont-envelope"></i>
@@ -303,7 +389,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-4" style="text-align: center;">
           <div class="info">
             <div class="phone">
               <i class="icofont-phone"></i>

@@ -915,6 +915,69 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Term
+--------------------------------------------------------------*/
+.term .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.term .content .title h4 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.term .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.term .content ul li {
+  padding-left: 28px;
+  position: relative;
+}
+
+.term .content ul li + li {
+  margin-top: 10px;
+}
+
+.term .content ul i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: #e43c5c;
+  line-height: 1;
+}
+
+.term .content p:last-child {
+  margin-bottom: 0;
+}
+
+.term .content .btn-learn-more {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: #e43c5c;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  border: 2px solid #e43c5c;
+}
+
+.term .content .btn-learn-more:hover {
+  background: #e43c5c;
+  color: #fff;
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
 .faq {
