@@ -4,7 +4,7 @@ Aplikasi Ujian Bahasa Inggris Berbasis Web Online
 
 ## Kebutuhan Server
 
-Aplikasi ini dibangun diatas Framework <a href="https://laravel.com/docs/5.5" target="_blank" title="silahkan buka di tab baru, dengan klik kanan atau klik CTRL + clik">Laravel 5.4</a> dan MySQL versi 5. Sebelum menjalankan aplikasi ini, silahkan disiapkan terlebih dahulu beberapa software dan ekstension berikut:
+Aplikasi ini dikembangkan dengan Framework <a href="https://laravel.com/docs/5.5" target="_blank" title="silahkan buka di tab baru, dengan klik kanan atau klik CTRL + clik">Laravel 5.4</a> dan MySQL versi 5. Sebelum menjalankan aplikasi ini, silahkan menyiapkan terlebih dahulu beberapa software dan ekstension berikut:
 
 - PHP versi 7.2 keatas
   - OpenSSL PHP Extension
@@ -13,16 +13,16 @@ Aplikasi ini dibangun diatas Framework <a href="https://laravel.com/docs/5.5" ta
   - Tokenizer PHP Extension
   - XML PHP Extension
 - MySQL
-- Browser (lebih direkomendasikan Chrome versi 60 keatas)
+- Browser (direkomendasikan Chrome versi 60 keatas)
 
-Dapat menggunakan beberapa paket yang siap pakai untuk mempersingkat proses instalasi aplikasi ini.
+Dapat menggunakan beberapa paket yang siap pakai(XAMPP,Laragon) untuk mempersingkat proses instalasi aplikasi ini.
 
 ## Instalasi
 
-Disini proses instalasi pada sistem operasi Windows.
+Berikut proses instalasi pada sistem operasi Windows.
 
-Pertama silahkan download XAMPP, silahkan download <a href="https://www.apachefriends.org/xampp-files/7.0.32/xampp-win32-7.0.32-0-VC14-installer.exe" target="_blank" title="silahkan buka di tab baru, dengan klik kanan atau klik CTRL + clik">disini</a>.
-Silahkan install XAMPP yang telah berhasil didownload. Pastikan di komputer belum terinstall PHP & MySQL untuk menghindari konflik port. Apabila sebelumnya telah ada, silahkan cek versi PHP harus 7.2.
+Pertama silahkan download XAMPP, tautan download <a href="https://www.apachefriends.org/xampp-files/7.0.32/xampp-win32-7.0.32-0-VC14-installer.exe" target="_blank" title="silahkan buka di tab baru, dengan klik kanan atau klik CTRL + clik">disini</a>.
+Silahkan install XAMPP yang telah berhasil didownload. Pastikan di komputer belum terinstall PHP & MySQL untuk menghindari konflik port. Apabila sebelumnya telah ada, silahkan cek versi PHP harus 7.
 
 Setelah berhasil menginstal PHP dan MySQL (dalam paket XAMPP), lanjutkan install composer dan gitbash.
 
