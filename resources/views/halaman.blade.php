@@ -122,7 +122,7 @@
               <h2 style="font-weight: bold;"><a>1</a></h2>
             </div>
             <h4 class="title"><a>Informasi Pembukaan Tes</a></h4>
-            <p class="description">Anda dapat melihat jadwal sesi yang tersedia pada halaman informasi tes</p>
+            <p class="description">Calon peserta dapat melihat jadwal test TOEFL yang tersedia pada halaman informasi tes</p>
           </div>
         </div>
 
@@ -131,8 +131,8 @@
             <div class="title">
               <h2 style="font-weight: bold;"><a>2</a></h2>
             </div>
-            <h4 class="title"><a>Daftar Akun</a></h4>
-            <p class="description">Anda dapat membuat akun pada halaman register, jika anda sudah memiliki akun silahkan login</p>
+            <h4 class="title"><a>Persiapan Daftar</a></h4>
+            <p class="description">Calon peserta mempersiapkan data yang dibutuhkan untuk mendaftar tes TOEFL. Ketentuan pendaftaran dapat dilihat pada halaman pendaftaran.</p>
           </div>
         </div>
 
@@ -141,8 +141,8 @@
             <div class="title">
               <h2 style="font-weight: bold;"><a>3</a></h2>
             </div>
-            <h4 class="title"><a>Login Akun</a></h4>
-            <p class="description">Setelah berhasil membuat akun, anda melanjutkan login</p>
+            <h4 class="title"><a>Daftar Akun</a></h4>
+            <p class="description">Calon peserta dapat membuat akun pada halaman register, jika sudah memiliki akun silahkan login</p>
           </div>
         </div>
 
@@ -151,8 +151,8 @@
             <div class="title">
               <h2 style="font-weight: bold;"><a>4</a></h2>
             </div>
-            <h4 class="title"><a>Lakukan Pembayaran</a></h4>
-            <p class="description">Pembayaran pendaftaran tes melalui rekening yang disertakan pada halaman daftar tes</p>
+            <h4 class="title"><a>Pembayaran</a></h4>
+            <p class="description">Calon peserta melakukan pembayaran melalui beberapa metode pembayaran setelah daftar dengan mekanisme sesuai metode pembayaran selama jangka waktu 1x24 jam.</p>
           </div>
         </div>
 
@@ -161,8 +161,8 @@
             <div class="title">
               <h2 style="font-weight: bold;"><a>5</a></h2>
             </div>
-            <h4 class="title"><a>Daftar Tes</a></h4>
-            <p class="description">Selanjutnya anda dapat mendaftar tes dengan menyertakan bukti pembayaran</p>
+            <h4 class="title"><a>Terdaftar</a></h4>
+            <p class="description">Calon peserta dinyatakan terdaftar sebagai peserta tes TOEFL setelah pembayaran tervalidasi.</p>
           </div>
         </div>
 
@@ -171,8 +171,8 @@
             <div class="title">
               <h2 style="font-weight: bold;"><a>6</a></h2>
             </div>
-            <h4 class="title"><a>Validasi Pendaftaran</a></h4>
-            <p class="description">Anda dapat menunggu pendaftaran divalidasi dan mendapatkan email berisi token yang digunakan untuk tes</p>
+            <h4 class="title"><a>Kartu Ujian</a></h4>
+            <p class="description">Peserta yang telah berhasil melakukan pendaftaran hingga pembayaran akan mendapatkan email berisi informasi pendaftaran dan ujian.</p>
           </div>
         </div>
 
@@ -182,7 +182,7 @@
               <h2 style="font-weight: bold;"><a>7</a></h2>
             </div>
             <h4 class="title"><a>Mulai Tes</a></h4>
-            <p class="description">Anda dapat mengikuti tes dengan mengklik tombol mulai tes pada halaman ujian</p>
+            <p class="description">Peserta dapat mengikuti tes dengan ketentuan dan mekanisme yang diinformasikan pada website.</p>
           </div>
         </div>
 
@@ -192,7 +192,7 @@
               <h2 style="font-weight: bold;"><a>8</a></h2>
             </div>
             <h4 class="title"><a>Hasil Tes</a></h4>
-            <p class="description">Selamat anda telah mengikuti tes TOEFL di SEEnglish, silahkan melihat hasil tes pada halaman riwayat</p>
+            <p class="description">Selamat telah mengikuti tes TOEFL di SEEnglish, silahkan melihat hasil tes pada halaman riwayat</p>
           </div>
         </div>
 
@@ -393,7 +393,7 @@
           <div class="info">
             <div class="phone">
               <i class="icofont-phone"></i>
-              <h4>Call:</h4>
+              <h4>Call/Whatsapp:</h4>
               <p>+62 8589 6554 885</p>
             </div>
           </div>
@@ -430,6 +430,7 @@
             <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="#about">Informasi Tes</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="#services">Tata Cara</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#term">Ketentuan</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="#faq">FAQ</a></li>
           </ul>
         </div>
