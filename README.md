@@ -1,6 +1,6 @@
 # SEEnglish
 
-Aplikasi Ujian Bahasa Inggris Berbasis Web Online
+Aplikasi Administrasi Ujian Bahasa Inggris Berbasis Web Online
 
 ## Kebutuhan Server
 
